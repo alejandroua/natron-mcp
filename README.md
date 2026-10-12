@@ -1,6 +1,7 @@
 # natron-mcp — MCP access to Natron for AI agents
 
 This MCP tool is specifically designed for Natron 3D 2.6+ fork: https://github.com/Niik-l/Natron
+
 Not tested on upstream releases (but still might work with minimal effort).
 
 Standalone implementation of the plan in [`docs/IMPLEMENTATION-PLAN.md`](docs/IMPLEMENTATION-PLAN.md)
