@@ -1,0 +1,11 @@
+# Normalize line endings: LF in the repo for everything text, enforced LF for
+# shell scripts (bash breaks on CRLF), CRLF for Windows batch files.
+* text=auto
+*.py text
+*.md text
+*.toml text
+*.json text
+*.yml text
+*.sh text eol=lf
+*.bat text eol=crlf
+LICENSE text
