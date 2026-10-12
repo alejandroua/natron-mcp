@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "natron-mcp"
+version = "0.1.0"
+description = "MCP server exposing Natron (compositor) to AI agents"
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0",
+    "pydantic>=2.0",
+    "numpy",
+    "imageio",
+]
+
+[project.scripts]
+natron-mcp = "natron_mcp.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["natron_mcp*"]
